@@ -1,0 +1,15 @@
+.category-section {
+    margin: 2rem 0;
+  }
+  
+  .category-section h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .video-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
