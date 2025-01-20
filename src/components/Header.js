@@ -1,13 +1,22 @@
 import React from 'react';
 import '../styles/Header.css';
 
-const Header = () => {
+const Header = ({ onNewVideo }) => {
+  const handleHomeClick = () => {
+    // Recarga la página
+    window.location.reload();
+  };
+
   return (
     <header className="header">
-      <h1 className="logo">ALURAFLEX</h1>
+      <h1 className="logo">ALURAFLIX</h1>
       <nav>
-        <button className="button">Home</button>
-        <button className="button">Nuevo Video</button>
+        <button className="button" onClick={handleHomeClick}>
+          Home
+        </button>
+        <button className="button" onClick={onNewVideo}>
+          Nuevo Video
+        </button>
       </nav>
     </header>
   );

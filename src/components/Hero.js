@@ -5,14 +5,13 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-text">
-        <h2>FRONT END</h2>
-        <p>Challenge React</p>
-        <p>Aprende React construyendo esta aplicación con componentes dinámicos.</p>
+        <h2>Explora los mejores tutoriales de Frontend y Backend</h2>
+        <p>Aprende y mejora tus habilidades con nuestros videos</p>
       </div>
       <div className="hero-video">
         <iframe
           src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-          title="Video"
+          title="Featured Video"
           frameBorder="0"
           allowFullScreen
         ></iframe>
